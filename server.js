@@ -21,6 +21,7 @@ MongoClient.connect(url,(err, database) =>
 app.get('/',function(req,res){
   res.sendFile(__dirname+"index.html");
 });
+
 app.post('/createUser',function(req,res){
     var user_name=req.body.name;
     var password=req.body.password;
@@ -54,6 +55,7 @@ app.post('/createUser',function(req,res){
     });
 
 })
+
 app.post('/getUsers',(req, res) => {
   console.log('getUsers')
   console.log('req.body', req.body)
@@ -74,6 +76,7 @@ app.post('/getUsers',(req, res) => {
       
   })
 })
+
 app.post('/deleteUsers',(req, res) => {
     console.log("deleteUsers:");
     console.log("req.body:",req.body)

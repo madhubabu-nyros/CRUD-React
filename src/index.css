@@ -20,8 +20,9 @@ code {
     margin: 20px auto;
     padding: 10px
 }
-.btn2{
-	color: #fff;
+.btn2
+{
+  	color: #fff;
     background-color:#d9534e;
     border: none;
     cursor: pointer;
@@ -30,7 +31,7 @@ code {
     
 }
 .btn1{
-	color: #fff;
+	  color: #fff;
     background-color: #5cb85c;
     border: none;
     cursor: pointer;
@@ -38,9 +39,15 @@ code {
     border-radius: 5px;
 
 }
-.center{text-align: center;}
-.data{margin-left: 29px;}
+.center
+{
+    text-align: center;
+}
+.data
+{
+    margin-left: 29px;
+}
 .flex-container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }

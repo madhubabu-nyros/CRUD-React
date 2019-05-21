@@ -31,6 +31,7 @@ class App extends Component {
        }.bind(this))
 
   }
+
   delete_users(mobile) {
     var data = {mobile:mobile};
     
@@ -60,6 +61,7 @@ class App extends Component {
     );
   }
 }
+
 class Users extends Component {
   render() {
     return (
